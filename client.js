@@ -1,6 +1,8 @@
-console.log(yourFunction(3, 2));
+console.log(comparer(3, 2)); //Example 1
+console.log(comparer(2, 7)); //Example 2
+console.log(comparer(7, 7)); //Example 3
 
-console.log(comparer('86.7 taco', 92));
+console.log(comparer('86.7 taco', 92)); //Pro Example
 
 function comparer(a, b){
   var num1 = parseFloat(a);
